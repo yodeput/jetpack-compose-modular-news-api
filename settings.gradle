@@ -1,0 +1,13 @@
+/*
+ * Created by Yogi Dewansyah
+ * URL: https://github.com/yodeput
+ * Copyright (c) 2022 . All rights reserved.
+ * Last modified 2/23/22, 5:24 PM
+ *
+ */
+
+rootProject.name = "composeNews"
+include ':app'
+include ':common'
+include ':core'
+include ':features'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Yogi Dewansyah
+  ~ URL: https://github.com/yodeput
+  ~ Copyright (c) 2022 . All rights reserved.
+  ~ Last modified 2/23/22, 10:27 PM
+  ~
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/auth_navigation">
+
+    <include app:graph="@navigation/feat_navigation" />
+
+</navigation>

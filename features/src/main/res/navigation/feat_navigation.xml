@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Yogi Dewansyah
+  ~ URL: https://github.com/yodeput
+  ~ Copyright (c) 2022 . All rights reserved.
+  ~ Last modified 2/23/22, 10:25 PM
+  ~
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@+id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.yodeput.newsapp.feature.ui.splash.SplashFragment"
+        android:label="mainFragment">
+        <action
+            android:id="@+id/action_splash_to_main"
+            app:destination="@id/mainFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.yodeput.newsapp.feature.ui.main.MainFragment"
+        android:label="mainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.yodeput.newsapp.feature.ui.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="news"
+            app:argType="com.yodeput.newsapp.core.model.News" />
+    </fragment>
+</navigation>

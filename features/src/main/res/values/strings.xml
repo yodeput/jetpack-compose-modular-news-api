@@ -1,0 +1,21 @@
+<!--
+  ~ Created by Yogi Dewansyah
+  ~ URL: https://github.com/yodeput
+  ~ Copyright (c) 2022 . All rights reserved.
+  ~ Last modified 2/23/22, 10:25 PM
+  ~
+  -->
+
+<resources>
+    <string name="app">Compose News</string>
+
+    <!--    Button -->
+    <string name="bt_login">Login</string>
+    <string name="bt_register">Register</string>
+    <string name="bt_to_register">Dont have an Account?</string>
+    <string name="bt_back_login">Back to Login</string>
+    <string name="bt_confirm">Comfim</string>
+    <string name="bt_ok">OK</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_retry">Retry</string>
+</resources>
